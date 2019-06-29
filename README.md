@@ -1,3 +1,3 @@
-# mc-icraftinpeace
+# I Craft in Peace
 
 TODO

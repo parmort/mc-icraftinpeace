@@ -1,0 +1,14 @@
+{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:charcoal"
+    },
+    {
+      "item": "icraftinpeace:sulfur"
+    }
+  ],
+  "result": {
+    "item": "minecraft:gunpowder"
+  }
+}

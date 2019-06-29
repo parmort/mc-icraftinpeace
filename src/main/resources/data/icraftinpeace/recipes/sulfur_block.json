@@ -1,0 +1,14 @@
+{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:stone"
+    },
+    {
+      "item": "minecraft:coal_block"
+    }
+  ],
+  "result": {
+    "item": "icraftinpeace:sulfur_block"
+  }
+}

@@ -3,7 +3,6 @@ package parmort.icraftinpeace.init;
 import parmort.icraftinpeace.ICraftInPeace;
 import net.minecraft.item.Item;
 import net.minecraft.item.BlockItem;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -12,7 +11,7 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 
 public final class ModItems {
-//    public static Item example;
+    public static Item SULFUR;
 
     static final Map<String, BlockItem> BLOCKS_TO_REGISTER = new LinkedHashMap<>();
 
@@ -22,14 +21,12 @@ public final class ModItems {
         // Workaround for Forge event bus bug
         if (!event.getName().equals(ForgeRegistries.ITEMS.getRegistryName())) return;
 
-        // Register block items first
-        // TODO
+        // Register each block as an item
         BLOCKS_TO_REGISTER.forEach(ModItems::register);
 
-        // Then register your items here
-//        example = register("example_item", new Item(new Item.Properties()
-//                .group(ItemGroup.MATERIALS)
-//        ));
+        SULFUR = register("sulfur", new Item(new Item.Properties()
+                .group(ICraftInPeace.itemGroup)
+        ));
     }
 
     private static <T extends Item> T register(String name, T item) {

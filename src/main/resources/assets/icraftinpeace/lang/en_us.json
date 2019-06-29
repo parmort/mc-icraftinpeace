@@ -1,4 +1,5 @@
 {
-  "block.icraftinpeace.example_block": "Example Block",
-  "item.icraftinpeace.example_item": "Example Item"
+  "itemGroup.icraftinpeace": "I Craft in Peace",
+  "block.icraftinpeace.sulfur_block": "Block of Sulfur",
+  "item.icraftinpeace.sulfur": "Sulfur"
 }

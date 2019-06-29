@@ -1,0 +1,12 @@
+{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "icraftinpeace:sulfur_block"
+    }
+  ],
+  "result": {
+    "item": "icraftinpeace:sulfur",
+    "count": 9
+  }
+}

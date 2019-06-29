@@ -1,5 +1,8 @@
 package parmort.icraftinpeace;
 
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemGroup;
+import net.minecraft.item.ItemStack;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.fml.DistExecutor;
 import net.minecraftforge.fml.ModContainer;
@@ -7,6 +10,7 @@ import net.minecraftforge.fml.ModList;
 import net.minecraftforge.fml.common.Mod;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import parmort.icraftinpeace.init.ModBlocks;
 
 import java.util.Optional;
 import java.util.Random;
@@ -21,6 +25,13 @@ public final class ICraftInPeace {
 
     public static ICraftInPeace INSTANCE;
     public static SideProxy PROXY;
+
+    public static final ItemGroup itemGroup = new ItemGroup(MOD_ID) {
+        @Override
+        public ItemStack createIcon() {
+            return new ItemStack(ModBlocks.SULFUR);
+        }
+    };
 
     public ICraftInPeace() {
         INSTANCE = this;

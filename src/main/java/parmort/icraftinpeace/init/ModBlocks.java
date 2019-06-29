@@ -1,5 +1,6 @@
 package parmort.icraftinpeace.init;
 
+import net.minecraft.block.material.MaterialColor;
 import parmort.icraftinpeace.ICraftInPeace;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
@@ -13,7 +14,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 import javax.annotation.Nullable;
 
 public final class ModBlocks {
-//    public static Block example;
+    public static Block SULFUR;
 
     private ModBlocks() {}
 
@@ -21,15 +22,11 @@ public final class ModBlocks {
         // Workaround for Forge event bus bug
         if (!event.getName().equals(ForgeRegistries.BLOCKS.getRegistryName())) return;
 
-        // Register your blocks here
-//        example = register("example_block", new Block(Block.Properties
-//                .create(Material.ROCK)
-//                .hardnessAndResistance(4, 20)
-//        ));
+        SULFUR = register("sulfur_block", new Block(Block.Properties.create(Material.ROCK, MaterialColor.YELLOW).hardnessAndResistance(5F, 6F)));
     }
 
     private static <T extends Block> T register(String name, T block) {
-        BlockItem item = new BlockItem(block, new Item.Properties().group(ItemGroup.BUILDING_BLOCKS));
+        BlockItem item = new BlockItem(block, new Item.Properties().group(ICraftInPeace.itemGroup));
         return register(name, block, item);
     }
 
