@@ -12,6 +12,7 @@ import java.util.Map;
 
 public final class ModItems {
     public static Item SULFUR;
+    public static Item NETHER_ROD;
 
     static final Map<String, BlockItem> BLOCKS_TO_REGISTER = new LinkedHashMap<>();
 
@@ -24,9 +25,8 @@ public final class ModItems {
         // Register each block as an item
         BLOCKS_TO_REGISTER.forEach(ModItems::register);
 
-        SULFUR = register("sulfur", new Item(new Item.Properties()
-                .group(ICraftInPeace.itemGroup)
-        ));
+        SULFUR = register("sulfur", new Item(new Item.Properties().group(ICraftInPeace.itemGroup)));
+        NETHER_ROD = register("nether_rod", new Item(new Item.Properties().group(ICraftInPeace.itemGroup)));
     }
 
     private static <T extends Item> T register(String name, T item) {

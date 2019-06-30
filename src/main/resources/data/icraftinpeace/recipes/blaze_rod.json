@@ -1,0 +1,9 @@
+{
+  "type": "smelting",
+  "ingredient": {
+    "item": "icraftinpeace:nether_rod"
+  },
+  "result": "minecraft:blaze_rod",
+  "experience": 1,
+  "cookingTime": 100
+}

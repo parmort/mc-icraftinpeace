@@ -1,0 +1,19 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "sb ",
+    "bsb",
+    " bs"
+  ],
+  "key": {
+    "s": {
+      "item": "icraftinpeace:sulfur"
+    },
+    "b": {
+      "item": "minecraft:nether_brick"
+    }
+  },
+  "result": {
+    "item": "icraftinpeace:nether_rod"
+  }
+}
