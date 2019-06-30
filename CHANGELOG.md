@@ -9,13 +9,18 @@ Versioning is based on the system described in the [Forge Docs][2]
 ## [Unreleased] 1.14.3-1.0.0.0-beta
 
 ### Added
+- Poisonous potato duplication recipe
+    - To make getting rotten flesh easier
 - Phantom Membrane recipe
 - Membrane Piece item
+    - Used to make phantom membranes
 - Rotten Flesh recipe
 - Slime Ball recipe
 - String recipe
 - Blaze Rod recipe
 - Nether Rod item
+    - Used to make blaze rods
 - Gunpowder recipe
 - Sulfur and Sulfur Block item
+    - Used to make gunpowder and nether rods
 - Bone recipe
