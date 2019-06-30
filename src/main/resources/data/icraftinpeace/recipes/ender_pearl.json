@@ -1,0 +1,20 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "ooo",
+    "opo",
+    "ooo"
+  ],
+  "key": {
+    "o": {
+      "item": "minecraft:obsidian"
+    },
+    "p": {
+      "item": "icraftinpeace:nether_powder"
+    }
+  },
+  "result": {
+    "item": "minecraft:ender_pearl",
+    "count": 8
+  }
+}

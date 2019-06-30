@@ -9,7 +9,9 @@ Versioning is based on the system described in the [Forge Docs][2]
 ## [Unreleased] 1.14.3-1.0.0.0-beta
 
 ### Added
+- Ender Pearl recipe
 - Nether Powder
+    - Used to make ender pearls
 - Spider Eye recipe
 - Poisonous Potato duplication recipe
     - To make getting rotten flesh easier
