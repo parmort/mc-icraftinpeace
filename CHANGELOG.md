@@ -9,6 +9,7 @@ Versioning is based on the system described in the [Forge Docs][2]
 ## [Unreleased] 1.14.3-1.0.0.0
 
 ### Added
+- Rotten Flesh recipe
 - Slime Ball recipe
 - String recipe
 - Blaze rod recipe
