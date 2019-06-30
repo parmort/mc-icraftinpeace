@@ -9,7 +9,8 @@ Versioning is based on the system described in the [Forge Docs][2]
 ## [Unreleased] 1.14.3-1.0.0.0-beta
 
 ### Added
-- Poisonous potato duplication recipe
+- Spider Eye recipe
+- Poisonous Potato duplication recipe
     - To make getting rotten flesh easier
 - Phantom Membrane recipe
 - Membrane Piece item
