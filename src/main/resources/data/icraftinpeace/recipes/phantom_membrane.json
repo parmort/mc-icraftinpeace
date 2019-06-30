@@ -1,0 +1,15 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "pp",
+    "pp"
+  ],
+  "key": {
+    "p": {
+      "item": "icraftinpeace:membrane_piece"
+    }
+  },
+  "result": {
+    "item": "minecraft:phantom_membrane"
+  }
+}
