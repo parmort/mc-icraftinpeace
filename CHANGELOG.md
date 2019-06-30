@@ -9,6 +9,7 @@ Versioning is based on the system described in the [Forge Docs][2]
 ## [Unreleased] 1.14.3-1.0.0.0-beta
 
 ### Added
+- Nether Powder
 - Spider Eye recipe
 - Poisonous Potato duplication recipe
     - To make getting rotten flesh easier

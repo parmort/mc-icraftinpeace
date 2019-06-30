@@ -1,0 +1,12 @@
+{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "icraftinpeace:nether_rod"
+    }
+  ],
+  "result": {
+    "item": "icraftinpeace:nether_powder",
+    "count": 2
+  }
+}

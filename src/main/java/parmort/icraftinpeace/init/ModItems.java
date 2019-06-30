@@ -13,6 +13,7 @@ import java.util.Map;
 public final class ModItems {
     public static Item SULFUR;
     public static Item NETHER_ROD;
+    public static Item NETHER_POWDER;
     public static Item MEMBRANE_PIECE;
 
     static final Map<String, BlockItem> BLOCKS_TO_REGISTER = new LinkedHashMap<>();
@@ -28,6 +29,7 @@ public final class ModItems {
 
         SULFUR = register("sulfur", new Item(new Item.Properties().group(ICraftInPeace.itemGroup)));
         NETHER_ROD = register("nether_rod", new Item(new Item.Properties().group(ICraftInPeace.itemGroup)));
+        NETHER_POWDER = register("nether_powder", new Item(new Item.Properties().group(ICraftInPeace.itemGroup)));
         MEMBRANE_PIECE = register("membrane_piece", new Item(new Item.Properties().group(ICraftInPeace.itemGroup)));
     }
 
