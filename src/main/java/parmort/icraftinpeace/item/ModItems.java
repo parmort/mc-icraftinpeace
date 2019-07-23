@@ -1,5 +1,8 @@
 package parmort.icraftinpeace.item;
 
+import com.mojang.datafixers.util.Pair;
+import net.minecraft.client.renderer.model.ModelBakery;
+import net.minecraftforge.client.model.ModelLoader;
 import parmort.icraftinpeace.ICraftInPeace;
 import net.minecraft.item.Item;
 import net.minecraft.item.BlockItem;

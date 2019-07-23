@@ -9,6 +9,11 @@ Versioning is based on the system described in the [Forge Docs][2]
 ## [Unreleased] 1.14.3-1.0.0.0-beta
 
 ### Added
+- Music Disc recipes
+- Pigments
+    - Used to make music discs
+- Record Blank
+    - Used to make music discs
 - Ender Pearl recipe
 - Nether Powder
     - Used to make ender pearls

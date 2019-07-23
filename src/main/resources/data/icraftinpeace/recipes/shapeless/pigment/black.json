@@ -1,0 +1,11 @@
+{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:black_dye"
+    }
+  ],
+  "result": {
+    "item": "icraftinpeace:black_pigment"
+  }
+}

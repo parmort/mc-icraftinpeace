@@ -1,0 +1,15 @@
+{
+  "type": "crafting_shapeless",
+  "group": "music_disc",
+  "ingredients": [
+    {
+      "item": "icraftinpeace:record_blank"
+    },
+    {
+      "item": "icraftinpeace:blue_pigment"
+    }
+  ],
+  "result": {
+    "item": "minecraft:music_disc_wait"
+  }
+}
