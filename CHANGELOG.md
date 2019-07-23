@@ -9,6 +9,7 @@ Versioning is based on the system described in the [Forge Docs][2]
 ## [Unreleased] 1.14.3-1.0.0.0-beta
 
 ### Added
+- Totem of Undying recipe
 - Nether Star recipe
 - Prismarine Shard decompression recipe
 - Ghast Tear recipe

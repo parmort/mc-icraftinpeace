@@ -1,0 +1,19 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "ege",
+    "ggg",
+    " g "
+  ],
+  "key": {
+    "e": {
+      "item": "minecraft:end_crystal"
+    },
+    "g": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "result": {
+    "item": "minecraft:totem_of_undying"
+  }
+}
