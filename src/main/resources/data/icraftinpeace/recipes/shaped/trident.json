@@ -1,0 +1,19 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "qqq",
+    " s ",
+    " s "
+  ],
+  "key": {
+    "q": {
+      "item": "icraftinpeace:quartz_blade"
+    },
+    "s": {
+      "item": "icraftinpeace:prismarine_staff"
+    }
+  },
+  "result": {
+    "item": "minecraft:trident"
+  }
+}

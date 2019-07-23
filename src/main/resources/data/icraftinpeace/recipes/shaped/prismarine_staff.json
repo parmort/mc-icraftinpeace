@@ -1,0 +1,19 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "pcp",
+    "pcp",
+    "pcp"
+  ],
+  "key": {
+    "p": {
+      "item": "minecraft:prismarine_shard"
+    },
+    "c": {
+      "item": "minecraft:prismarine_crystals"
+    }
+  },
+  "result": {
+    "item": "icraftinpeace:prismarine_staff"
+  }
+}
