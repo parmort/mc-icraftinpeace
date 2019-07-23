@@ -1,8 +1,9 @@
 package parmort.icraftinpeace;
 
-import parmort.icraftinpeace.init.*;
+import parmort.icraftinpeace.block.ModBlocks;
 import net.minecraftforge.fml.event.lifecycle.*;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import parmort.icraftinpeace.item.ModItems;
 
 class SideProxy {
     SideProxy() {

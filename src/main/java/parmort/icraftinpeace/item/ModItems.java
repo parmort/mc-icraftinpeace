@@ -1,4 +1,4 @@
-package parmort.icraftinpeace.init;
+package parmort.icraftinpeace.item;
 
 import parmort.icraftinpeace.ICraftInPeace;
 import net.minecraft.item.Item;
@@ -15,8 +15,9 @@ public final class ModItems {
     public static Item NETHER_ROD;
     public static Item NETHER_POWDER;
     public static Item MEMBRANE_PIECE;
+  public static Item RECORD_BLANK;
 
-    static final Map<String, BlockItem> BLOCKS_TO_REGISTER = new LinkedHashMap<>();
+  public static final Map<String, BlockItem> BLOCKS_TO_REGISTER = new LinkedHashMap<>();
 
     private ModItems() {}
 
@@ -31,6 +32,12 @@ public final class ModItems {
         NETHER_ROD = register("nether_rod", new Item(new Item.Properties().group(ICraftInPeace.itemGroup)));
         NETHER_POWDER = register("nether_powder", new Item(new Item.Properties().group(ICraftInPeace.itemGroup)));
         MEMBRANE_PIECE = register("membrane_piece", new Item(new Item.Properties().group(ICraftInPeace.itemGroup)));
+      RECORD_BLANK = register("record_blank", new Item(new Item.Properties().group(ICraftInPeace.itemGroup)));
+
+      // Register pigment
+      for (Pigment pigment : Pigment.values()) {
+        register(pigment.getName(), pigment.asItem());
+      }
     }
 
     private static <T extends Item> T register(String name, T item) {

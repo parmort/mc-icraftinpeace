@@ -1,6 +1,5 @@
 package parmort.icraftinpeace;
 
-import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.ResourceLocation;
@@ -10,7 +9,7 @@ import net.minecraftforge.fml.ModList;
 import net.minecraftforge.fml.common.Mod;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import parmort.icraftinpeace.init.ModBlocks;
+import parmort.icraftinpeace.block.ModBlocks;
 
 import java.util.Optional;
 import java.util.Random;
@@ -35,6 +34,7 @@ public final class ICraftInPeace {
 
     public ICraftInPeace() {
         INSTANCE = this;
+      //noinspection Convert2MethodRef
         PROXY = DistExecutor.runForDist(() -> () -> new SideProxy.Client(), () -> () -> new SideProxy.Server());
     }
 

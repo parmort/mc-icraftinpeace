@@ -1,15 +1,14 @@
-package parmort.icraftinpeace.init;
+package parmort.icraftinpeace.block;
 
-import net.minecraft.block.material.MaterialColor;
 import parmort.icraftinpeace.ICraftInPeace;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.item.Item;
 import net.minecraft.item.BlockItem;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.registries.ForgeRegistries;
+import parmort.icraftinpeace.item.ModItems;
 
 import javax.annotation.Nullable;
 
@@ -22,7 +21,7 @@ public final class ModBlocks {
         // Workaround for Forge event bus bug
         if (!event.getName().equals(ForgeRegistries.BLOCKS.getRegistryName())) return;
 
-        SULFUR = register("sulfur_block", new Block(Block.Properties.create(Material.ROCK, MaterialColor.YELLOW).hardnessAndResistance(5F, 6F)));
+      SULFUR = register("sulfur_block", new Block(Block.Properties.create(Material.ROCK).hardnessAndResistance(5F, 6F)));
     }
 
     private static <T extends Block> T register(String name, T block) {
