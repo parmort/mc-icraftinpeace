@@ -1,9 +1,7 @@
 package parmort.icraftinpeace.block;
 
-import net.minecraft.block.SoundType;
 import parmort.icraftinpeace.ICraftInPeace;
 import net.minecraft.block.Block;
-import net.minecraft.block.material.Material;
 import net.minecraft.item.Item;
 import net.minecraft.item.BlockItem;
 import net.minecraft.util.ResourceLocation;
@@ -14,7 +12,7 @@ import parmort.icraftinpeace.item.ModItems;
 import javax.annotation.Nullable;
 
 public final class ModBlocks {
-  public static Block SULFUR;
+  public static Sulfur SULFUR;
 
   private ModBlocks() {
   }
@@ -23,11 +21,7 @@ public final class ModBlocks {
     // Workaround for Forge event bus bug
     if (!event.getName().equals(ForgeRegistries.BLOCKS.getRegistryName())) return;
 
-    SULFUR = register("sulfur_block", new Block(Block.Properties
-            .create(Material.IRON)
-            .hardnessAndResistance(5F, 6F)
-            .sound(SoundType.METAL)
-    ));
+    SULFUR = register(Sulfur.ID, new Sulfur());
   }
 
   private static <T extends Block> T register(String name, T block) {

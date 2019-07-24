@@ -24,7 +24,7 @@ public enum Pigment implements IItemProvider {
   private final LazyLoadBase<Item> pigmentItem;
 
   Pigment() {
-    pigmentItem = new LazyLoadBase<>(() -> new Item(new Item.Properties().group(ICraftInPeace.itemGroup)));
+    pigmentItem = new LazyLoadBase<>(ModItem::new);
   }
 
   public String getName() {

@@ -6,6 +6,20 @@ Versioning is based on the system described in the [Forge Docs][2]
 [1]:https://keepachangelog.com/en/1.0.0/
 [2]:https://mcforge.readthedocs.io/en/1.13.x/conventions/versioning/#versioning
 
+## [1.14.3-1.1.0.0] - 2019-07-23
+
+### Added
+- ModItem class
+    - Reduce code duplication, like setting the creative tab
+- Shulker Shell recipe
+- Ender Flesh
+    
+### Changed
+- Refactored items to be a `ModItem`
+- Refactored to use method refs wherever possible
+- Refactored Sulfur Block to it's own class
+    - Reduce code in `ModBlocks`
+
 ## [1.14.3-1.0.0.0] - 2019-07-23
 
 ### Added

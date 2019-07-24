@@ -12,8 +12,8 @@ authors="parmort"
     displayName="I Craft in Peace"
     # updateJSONURL=""
     description='''
-    This is a mod that makes playing in peaceful mode (because you wimp out like me) possible.
-    The only purpose is to add crafting recipes and items purely to unlock otherwise unattainable items.
+This is a mod that makes playing in peaceful mode (because you wimp out like me) possible.
+The only purpose is to add crafting recipes and items purely to unlock otherwise unattainable items.
     '''
 
 [[dependencies.icraftinpeace]]

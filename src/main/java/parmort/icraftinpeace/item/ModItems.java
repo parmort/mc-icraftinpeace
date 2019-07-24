@@ -14,13 +14,14 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 
 public final class ModItems {
-  public static Item SULFUR;
-  public static Item NETHER_ROD;
-  public static Item NETHER_POWDER;
-  public static Item MEMBRANE_PIECE;
-  public static Item RECORD_BLANK;
-  public static Item PRISMARINE_STAFF;
-  public static Item QUARTZ_BLADE;
+  public static ModItem SULFUR;
+  public static ModItem NETHER_ROD;
+  public static ModItem NETHER_POWDER;
+  public static ModItem MEMBRANE_PIECE;
+  public static ModItem RECORD_BLANK;
+  public static ModItem PRISMARINE_STAFF;
+  public static ModItem QUARTZ_BLADE;
+  public static ModItem ENDER_FLESH;
 
   public static final Map<String, BlockItem> BLOCKS_TO_REGISTER = new LinkedHashMap<>();
 
@@ -34,13 +35,14 @@ public final class ModItems {
     // Register each block as an item
     BLOCKS_TO_REGISTER.forEach(ModItems::register);
 
-    SULFUR = register("sulfur", new Item(new Item.Properties().group(ICraftInPeace.itemGroup)));
-    NETHER_ROD = register("nether_rod", new Item(new Item.Properties().group(ICraftInPeace.itemGroup)));
-    NETHER_POWDER = register("nether_powder", new Item(new Item.Properties().group(ICraftInPeace.itemGroup)));
-    MEMBRANE_PIECE = register("membrane_piece", new Item(new Item.Properties().group(ICraftInPeace.itemGroup)));
-    RECORD_BLANK = register("record_blank", new Item(new Item.Properties().group(ICraftInPeace.itemGroup)));
-    PRISMARINE_STAFF = register("prismarine_staff", new Item(new Item.Properties().group(ICraftInPeace.itemGroup)));
-    QUARTZ_BLADE = register("quartz_blade", new Item(new Item.Properties().group(ICraftInPeace.itemGroup)));
+    SULFUR = register("sulfur", new ModItem());
+    NETHER_ROD = register("nether_rod", new ModItem());
+    NETHER_POWDER = register("nether_powder", new ModItem());
+    MEMBRANE_PIECE = register("membrane_piece", new ModItem());
+    RECORD_BLANK = register("record_blank", new ModItem());
+    PRISMARINE_STAFF = register("prismarine_staff", new ModItem());
+    QUARTZ_BLADE = register("quartz_blade", new ModItem());
+    ENDER_FLESH = register("ender_flesh", new ModItem());
 
     // Register pigment
     for (Pigment pigment : Pigment.values()) {
