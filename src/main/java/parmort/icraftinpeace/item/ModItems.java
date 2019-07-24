@@ -1,8 +1,5 @@
 package parmort.icraftinpeace.item;
 
-import com.mojang.datafixers.util.Pair;
-import net.minecraft.client.renderer.model.ModelBakery;
-import net.minecraftforge.client.model.ModelLoader;
 import parmort.icraftinpeace.ICraftInPeace;
 import net.minecraft.item.Item;
 import net.minecraft.item.BlockItem;
@@ -21,7 +18,6 @@ public final class ModItems {
   public static ModItem RECORD_BLANK;
   public static ModItem PRISMARINE_STAFF;
   public static ModItem QUARTZ_BLADE;
-  public static ModItem ENDER_FLESH;
 
   public static final Map<String, BlockItem> BLOCKS_TO_REGISTER = new LinkedHashMap<>();
 
@@ -42,7 +38,6 @@ public final class ModItems {
     RECORD_BLANK = register("record_blank", new ModItem());
     PRISMARINE_STAFF = register("prismarine_staff", new ModItem());
     QUARTZ_BLADE = register("quartz_blade", new ModItem());
-    ENDER_FLESH = register("ender_flesh", new ModItem());
 
     // Register pigment
     for (Pigment pigment : Pigment.values()) {
