@@ -6,6 +6,14 @@ Versioning is based on the system described in the [Forge Docs][2]
 [1]:https://keepachangelog.com/en/1.0.0/
 [2]:https://mcforge.readthedocs.io/en/1.13.x/conventions/versioning/#versioning
 
+## [1.14.3-1.2.0.0] - 2019-07-25
+
+### Removed
+- Shulker Shell recipe
+    - Realized that shulkers and the dragon still spawn in despite peaceful mode
+- Ender Flesh
+    - For reasons stated above
+
 ## [1.14.3-1.1.0.0] - 2019-07-23
 
 ### Added
